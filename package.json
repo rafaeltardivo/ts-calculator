@@ -1,0 +1,15 @@
+{
+  "name": "ts-calculator",
+  "version": "1.0.0",
+  "description": "Demo TypeScript calculator for stacked PR demonstration",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx/esm --test tests/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
